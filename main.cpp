@@ -5,10 +5,11 @@ int main() {
     int n, c;
     int a=1;
     int b=1;
-    cin >> n;
-    for (int i=1; i<=n; i++){
+    cout << a << endl;
+    cout << b << endl;
+    while (b<=n){
         a+=b;
-        cout << a<<endl;
+        cout << a << endl;
         c=b;
         b=a;
         a=c;
